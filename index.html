@@ -18,11 +18,11 @@
 
 	<!-- CSS
     ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">
-   <link rel="stylesheet" href="css/animate.css">
-   <link rel="stylesheet" href="css/prettyPhoto.css">
+   <link type="text/css" rel="stylesheet" href="css/default.css">
+	<link type="text/css" rel="stylesheet" href="css/layout.css">
+   <link type="text/css" rel="stylesheet" href="css/media-queries.css">
+   <link type="text/css" rel="stylesheet" href="css/animate.css">
+   <link type="text/css" rel="stylesheet" href="css/prettyPhoto.css">
 
    <!-- Script
    ================================================== -->
@@ -32,6 +32,8 @@
 	================================================== -->
 	<link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon" >
   <link rel="icon" href="/favicon.ico?" type="image/x-icon" >
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> 
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
 
 
 </head>
@@ -67,8 +69,8 @@
       </nav> <!-- end #nav-wrap -->
 
       <ul class="header-social">
-         <li><a href="http://github.com/Autokrator"><i class="fa fa-github"></i></a></li>
-         <li><a href="https://ca.linkedin.com/in/parthpathk
+         <li><a target="_blank" href="http://github.com/Autokrator"><i class="fa fa-github"></i></a></li>
+         <li><a target="_blank" href="https://ca.linkedin.com/in/parthpathk
 "><i class="fa fa-linkedin"></i></a></li>
       </ul>
 
@@ -146,7 +148,7 @@
 
          <h1>Projects</h1>
 
-         <p>I have worked on several projects over the past few years. Below are some of my favourites. They are all open source and available on my <a href="https://github.com/Autokrator">Github</a>.  
+         <p>I have worked on several projects over the past few years. Below are some of my favourites. They are all open source and available on my <a href="https://github.com/Autokrator" target="_blank">Github</a>.  
          </p>
           
           <p>Click on the images to watch the project in action</p>
@@ -154,10 +156,10 @@
        <div class="row feature responsive">
         <h5>Game Development</h5> <br />
          <div class="six columns left">
-            <h6>Clash Wars &nbsp; <a href="https://github.com/nelsonong/clash-wars"><i class="fa fa-github"></i></a></h6>
+            <h6>Clash Wars &nbsp; <a href="https://github.com/nelsonong/clash-wars" target="_blank"><i class="fa fa-github"></i></a></h6>
             <p>Clash Wars is an online multiplayer game where two players face each other in a tapping battle. The goal is to push your energy beam on the other player.
             </p>
-             <p> The client side of the game is an android app written in Java using the wrapper framework <a href="https://libgdx.badlogicgames.com/">libGDX</a>. The server is implemented in C++11 and uses a concurrent architecture. A detailed breakdown of the server's threaded design can be found <a href="/res/ClashWarsDesignDocument.pdf">here</a>.</p>
+             <p> The client side of the game is an android app written in Java using the wrapper framework <a href="https://libgdx.badlogicgames.com/" target="_blank">libGDX</a>. The server is implemented in C++11 and uses a concurrent architecture. A detailed breakdown of the server's threaded design can be found <a href="/res/ClashWarsDesignDocument.pdf" target="_blank">here</a>.</p>
          </div>
         
          <div class="six columns feature-media right">
@@ -177,8 +179,8 @@
     <div class="row feature responsive">
         <br>
          <div class="six columns left">
-            <h6>Plants Vs. Zombies Clone &nbsp; <a href="https://github.com/Autokrator/PvZ"><i class="fa fa-github"></i></a></h6>
-            <p>This was a <a href="http://popcap.com/plants-vs-zombies">Plants Vs. Zombies</a> implementation in C++ using the <a href="http://qt.io/qt-framework/">Qt</a> framework. Making this game taught me a lot regarding object-oriented programming. The implementation follows core OOP priciples and utilizes Qt's graphics libraries for visuals and IO libraries to save player data.  
+            <h6>Plants Vs. Zombies Clone &nbsp; <a href="https://github.com/Autokrator/PvZ" target="_blank"><i class="fa fa-github"></i></a></h6>
+            <p>This was a <a href="http://popcap.com/plants-vs-zombies" target="_blank">Plants Vs. Zombies</a> implementation in C++ using the <a href="http://qt.io/qt-framework/" target="_blank">Qt</a> framework. Making this game taught me a lot regarding object-oriented programming. The implementation follows core OOP priciples and utilizes Qt's graphics libraries for visuals and IO libraries to save player data.  
             </p>
          </div>
 
@@ -200,7 +202,7 @@
         <br>
         <h5>Web Development</h5> <br />
          <div class="six columns left">
-             <h6>Quick Links &nbsp; <a href="https://github.com/Autokrator/quick-links"><i class="fa fa-github"></i></a> &nbsp; <a href="https://chrome.google.com/webstore/detail/quick-links/domejihddmodeedamfoglecccidpmjkd"><img src="https://crystalnixhq.gitbooks.io/serverauditor-documentation/content/pictures/quick_start/Chrome-Web-Store-icon.png" width="5%"></a></h6>
+             <h6>Quick Links &nbsp; <a href="https://github.com/Autokrator/quick-links" target="_blank"><i class="fa fa-github"></i></a> &nbsp; <a href="https://chrome.google.com/webstore/detail/quick-links/domejihddmodeedamfoglecccidpmjkd" target="_blank"><img src="https://crystalnixhq.gitbooks.io/serverauditor-documentation/content/pictures/quick_start/Chrome-Web-Store-icon.png" width="15px" target="_blank"></a></h6>
             <p>Quick Links is a Chrome extension written in HTML, CSS and JS that allows you to assign hotkeys to desired links. It utilizes the <a href="https://developer.chrome.com/extensions/api_index">Chrome API</a> to to achieve this. It is designed to give a modern feel supporting a dark and light theme.
             </p>
          </div>
@@ -225,7 +227,7 @@
              <h6>LeagueBets (In Developemnt)</h6>
             <p>LeagueBets is currently in development, but it is one of my most ambitous projects. It utilizes a vareity of things I have learned this year in web development.
             </p>
-             <p>LeagueBets is a single-page, MEAN stack web application that allows registered users to place bets on active League of Legends matches using virtual tokens. The users can register for the site using Facebook, Google+ or on-site registration. This is achieved by using the <a href="https://developer.riotgames.com/">Riot API</a>, which allows the retrival of League of Legends feautered game data along with <a href="https://developers.facebook.com/docs/facebook-login/web">Facebook</a> and <a href="https://developers.google.com/identity/protocols/OAuth2">Google APIs</a> for OAuth 2.0 authetication. </p>
+             <p>LeagueBets is a single-page, MEAN stack web application that allows registered users to place bets on active League of Legends matches using virtual tokens. The users can register for the site using Facebook, Google+ or on-site registration. This is achieved by using the <a href="https://developer.riotgames.com/" target="_blank">Riot API</a>, which allows the retrival of League of Legends feautered game data along with <a href="https://developers.facebook.com/docs/facebook-login/web" target="_blank">Facebook</a> and <a href="https://developers.google.com/identity/protocols/OAuth2" target="_blank">Google APIs</a> for OAuth 2.0 authetication. </p>
          </div>
 
          <div class="six columns feature-media right"> <br>
@@ -301,18 +303,18 @@
                <div class="columns">
                   <h3 class="social">socialize</h3>
                   <ul>
-                     <li><a href="https://plus.google.com/u/0/108198552757630623210">GooglePlus</a></li>
+                     <li><a href="https://plus.google.com/u/0/108198552757630623210" target="_blank">GooglePlus</a></li>
                      <li><a href="https://ca.linkedin.com/in/parthpathk
-">LinkedIn</a></li>
+" target="_blank">LinkedIn</a></li>
                       <li><a href="https://github.com/Autokrator
-">Github</a></li>
+" target="_blank">Github</a></li>
                   </ul>
                </div>
             </div> <!-- Nested Row End -->
 
          </div>
 
-         <p class="copyright">&copy; 2014 Woo | Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></p>
+         <p class="copyright">&copy; 2014 Woo | Design by <a title="Styleshout" href="http://www.styleshout.com/" target="_blank">Styleshout</a></p>
 
          <div id="go-top">
             <a class="smoothscroll" title="Back to Top" href="#hero"><i class="icon-up-open"></i></a>
